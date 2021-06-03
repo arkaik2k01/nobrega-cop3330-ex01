@@ -63,7 +63,8 @@ public class App {
         }
         else
         {
-            System.out.println("Hello, "+ name +", nice to meet you!");
+            String output = "Hello, " +name+", nice to meet you!";
+            System.out.println(output);
         }
     }
 }
